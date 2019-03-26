@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GreenShield
+  m_Shader: {fileID: 4800000, guid: 9b33cdbd260b5034ab3c8c977afefdd4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_4389112A:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_6AE7EDB4:
+        m_Texture: {fileID: 2800000, guid: 0000e59abfbba714897d5dd6f44460a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_A28D0C4B:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CameraOpaqueTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: 0000e59abfbba714897d5dd6f44460a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_B2DDCA32_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D_A28D0C4B:
+        m_Texture: {fileID: 2800000, guid: 0000e59abfbba714897d5dd6f44460a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_12AE0F08: 1.17
+    - Vector1_36C98E7C: 5.2
+    - Vector1_3EB702E3: 1.15
+    - Vector1_3FF8736E: 1
+    - Vector1_4BD12FFB: 1
+    - Vector1_6C245D3E: 10.07
+    - Vector1_77531E36: 32.62
+    - Vector1_7A2C7FA2: 0
+    - Vector1_7E05D407: 0.64
+    - Vector1_88C45DC8: 1
+    - Vector1_8D042765: 20
+    - Vector1_96CB889: 0.439
+    - Vector1_9C45609A: 5.63
+    - Vector1_A2BE2E57: 10
+    - Vector1_AA502E1D: 0
+    - Vector1_B581833D: 10
+    - Vector1_DCCF8342: 5.6
+    - Vector1_E92BF3AD: 0
+    m_Colors:
+    - Color_3D0BB27C: {r: 0.36320746, g: 1, b: 0.49958688, a: 0}
+    - Color_41414AE4: {r: 0.50327575, g: 6.1231885, b: 0.58715504, a: 1}
+    - Color_5DECB8AA: {r: 1.206843, g: 1.994608, b: 1.100798, a: 0}
+    - Color_5EAA8DA3: {r: 1, g: 0.4009434, b: 0.4009434, a: 0}
+    - Color_652FC8DC: {r: 0.07132784, g: 3.827927, b: 4.018135, a: 0}
+    - Color_6AC12CD: {r: 0.61533, g: 1, b: 0.53301877, a: 0}
+    - Color_7276E822: {r: 2.10425, g: 2.2932508, b: 2.0228202, a: 1}
+    - Color_A7D63B0: {r: 0.3160377, g: 0.97570854, b: 1, a: 0}
+    - Color_E48F231D: {r: 2, g: 1.356863, b: 0.4235294, a: 0}
+    - Color_FB1E5E18: {r: 0.48584902, g: 1, b: 0.9677755, a: 0}
+    - Vector2_1745F09D: {r: 0, g: 0.08, b: 0, a: 0}
+    - Vector2_45656733: {r: 0, g: 0.09, b: 0, a: 0}
+    - Vector2_847AEF2A: {r: 0, g: 0.06, b: 0, a: 0}
+    - Vector2_8D76132C: {r: 0, g: 0.1, b: 0, a: 0}
+    - Vector2_D055E49F: {r: 0.5, g: 5, b: 0, a: 0}
