@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Binary Star Description
   m_EditorClassIdentifier: 
   ShaderName: Binary Star System Shader Graph
-  Sentence: "This is the binary start system, featuring a main sequence star and a
-    dwarf star orbiting each other (minus the accretion disk).\nHere, some textures
-    are sampled and tiled along the object's x axis at different speeds to give a
-    multi-layered affect. \nThere are slight fresnel affects on each of the stars,
-    and both have their own corona particle effect systems. There are also depth of
-    field, grain, and bloom post-processing effects in the scene.\n"
+  Sentence: "The binary system scene features a main sequence star and a dwarf star
+    orbiting each other (minus the accretion disk).\nHere, some textures are sampled
+    and tiled along the object's x axis at different speeds to give a multi-layered
+    affect. \nThere are slight fresnel affects on each of the stars, and both have
+    their own corona particle effect systems. There are also depth of field, grain,
+    and bloom post-processing effects in the scene.\n"

@@ -17,9 +17,9 @@ public class ToggleScenes : MonoBehaviour
     public void LoadLastScene()
     {
         int currentScene = SceneManager.GetActiveScene().buildIndex;
-        sceneCountUpdate.UpdateSceneCounter(currentScene - 1);
         if (currentScene > 0)
         {
+            sceneCountUpdate.UpdateSceneCounter(currentScene - 1);
             SceneManager.LoadScene(currentScene - 1);
             descriptionLoader.LoadShaderDescription(currentScene - 1);
         }
@@ -28,9 +28,9 @@ public class ToggleScenes : MonoBehaviour
     public void LoadNextScene()
     {
         int currentScene = SceneManager.GetActiveScene().buildIndex;
-        sceneCountUpdate.UpdateSceneCounter(currentScene + 1);
         if (SceneManager.GetSceneByBuildIndex(currentScene).buildIndex < 2)
         {
+            sceneCountUpdate.UpdateSceneCounter(currentScene + 1);
             SceneManager.LoadScene(currentScene + 1);
             descriptionLoader.LoadShaderDescription(currentScene + 1);
         }

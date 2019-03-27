@@ -6,6 +6,6 @@ using UnityEngine;
 public class ShaderDescription : ScriptableObject
 {
     public string ShaderName;
-    [TextArea]
+    [TextArea(1, 10)]
     public string Sentence;
 }

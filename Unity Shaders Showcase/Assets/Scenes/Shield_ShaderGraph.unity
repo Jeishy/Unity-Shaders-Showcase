@@ -975,7 +975,7 @@ GameObject:
   - component: {fileID: 1078757118}
   - component: {fileID: 1078757117}
   m_Layer: 5
-  m_Name: Text
+  m_Name: InstructionalTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -988,17 +988,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1078757115}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1611954577}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -57.53}
-  m_SizeDelta: {x: 586.75, y: 57.49}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 28.8}
+  m_SizeDelta: {x: 458.4, y: 57.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1078757117
 MonoBehaviour:
@@ -1022,7 +1022,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 18
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1032,9 +1032,8 @@ MonoBehaviour:
     m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 0.8
+    m_LineSpacing: 1.3
   m_Text: 'Control Camera By Holding Right Mouse Button Down
-
 
     Use WASD To Move'
 --- !u!222 &1078757118
@@ -1973,6 +1972,7 @@ MonoBehaviour:
   shaderDescriptionSOs:
   - {fileID: 11400000, guid: 029bc93d5eae6ce44ba8d1c842c95153, type: 2}
   - {fileID: 11400000, guid: c3499282525335442bcd6d4303bcc39d, type: 2}
+  - {fileID: 11400000, guid: 766e7ce9284e8cc419ee70712bdce840, type: 2}
   titleTxt: {fileID: 971760815}
   descriptionTxt: {fileID: 2097997609}
 --- !u!114 &1611954582
@@ -2614,8 +2614,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 130, y: -183}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 165.78, y: -339.3}
+  m_SizeDelta: {x: 271.55, y: 362.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2097997609
 MonoBehaviour:
@@ -2665,8 +2665,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2703,7 +2703,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -73.16809, w: -298.58304}
+  m_margin: {x: 0, y: 0, z: 1.2792969, w: 0.69553375}
   m_textInfo:
     textComponent: {fileID: 0}
     characterCount: 19
