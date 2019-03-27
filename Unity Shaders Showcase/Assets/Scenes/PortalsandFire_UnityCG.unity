@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -284,6 +284,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23997369276366790, guid: 7569f2869b327564ea8d95952a8649eb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f2b74565e87bb6249a2c8e4dc8b8758c, type: 2}
+    - target: {fileID: 23282785504747418, guid: 7569f2869b327564ea8d95952a8649eb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f2b74565e87bb6249a2c8e4dc8b8758c, type: 2}
+    - target: {fileID: 23599065249012656, guid: 7569f2869b327564ea8d95952a8649eb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f2b74565e87bb6249a2c8e4dc8b8758c, type: 2}
+    - target: {fileID: 23252480538141148, guid: 7569f2869b327564ea8d95952a8649eb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f2b74565e87bb6249a2c8e4dc8b8758c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7569f2869b327564ea8d95952a8649eb, type: 3}
 --- !u!1001 &891096753
@@ -327,7 +347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2bf30695aff15094aa5ef98a7e4d1d0d, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2bf30695aff15094aa5ef98a7e4d1d0d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -400,7 +420,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4712764461253220, guid: 8a18a8d04a536df4d850ba6486b7615d, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4712764461253220, guid: 8a18a8d04a536df4d850ba6486b7615d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
