@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ToggleScenes : MonoBehaviour
-{
+{  
     private ShaderDescriptionLoader descriptionLoader;
     private SceneCountTextUpdate sceneCountUpdate;
 
