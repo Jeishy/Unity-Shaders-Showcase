@@ -81,6 +81,7 @@
                 float y = sin(angle) * delta.x + cos(angle) * delta.y;
                 Out = float2(x + Center.x + Offset.x, y + Center.y + Offset.y);
             }
+            
             v2f vert (appdata v)
             {
                 v2f o;

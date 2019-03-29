@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78724ed66c4feaf49a6d398abcd9d4f1, type: 3}
   m_Name: Portal And Fire Dissolve Description
   m_EditorClassIdentifier: 
-  ShaderName: Portal, Fire and Dissolve
+  ShaderName: Portal, Fire and Dissolve Cg
   Sentence: 'The portals in the scene feature models created by a 3D artist from the
     Game Creation Processes 3rd year module. It also features portal shaders that
     make use of twirl and voronoi auto generated functions from Unity''s shader graph
