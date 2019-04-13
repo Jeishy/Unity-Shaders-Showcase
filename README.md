@@ -11,7 +11,7 @@ This project features 4 shaders:
 - Star shader
 
 These shaders were made using Unity's Shader Graph and the Cg shading language. 
-All models were created by Daniel Henshaw, who's YouTube channel I have linked below:
+Models for the Portal, Fire and Dissolve scene were created by Daniel Henshaw, who's YouTube channel I have linked below:
 https://www.youtube.com/user/IOMLEGEND1
 
 A zip of the Build can be found in the root of this repository.
